@@ -1,0 +1,26 @@
+{
+  "name": "get-tile-urls",
+  "version": "1.0.0",
+  "description": "Get Google Street View tile URLs.",
+  "author": "Michael Hulse",
+  "license": {
+    "//": "https://spdx.org/licenses/",
+    "type": "Apache License 2.0",
+    "url": "http://www.apache.org/licenses/LICENSE-2.0"
+  },
+  "scripts": {
+    "test": "mocha ./test/test.js"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mhulse/get-tile-urls.git"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "get-tile-url": "github:mhulse/get-tile-url"
+  },
+  "devDependencies": {
+    "mocha": "^6.0.0"
+  }
+}
