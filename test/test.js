@@ -5,7 +5,7 @@ const assert = require('assert');
 const gtus = require('../index');
 const data = require('./data');
 
-describe('get-tile-url', function() {
+describe('tile-urls', function() {
 
   describe('module.exports', function() {
 

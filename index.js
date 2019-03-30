@@ -1,4 +1,4 @@
-const gtu = require('get-tile-url');
+const gtu = require('tile-url');
 
 function getTileUrls(data) {
 

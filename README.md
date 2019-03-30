@@ -1,17 +1,17 @@
-# get-tile-urls
+# tile-urls
 
 Get Google Street View tile URLs.
 
 ## Installation
 
 ```bash
-$ npm i mhulse/get-tile-urls
+$ npm i mhulse/tile-urls
 ```
 
 ## Usage
 
 ```js
-const gtus = require('get-tile-urls');
+const gtus = require('tile-urls');
 const data = {
   id: "CAoSLEFGMVFpcFBUUGE3aHhlb1NWMEUxRFNwWFA5bW56VzZtYVc5VUV2NDJ2Yjc1",
   key: "AF1QipPTPa7hxeoSV0E1DSpXP9mnzW6maW9UEv42vb75",
