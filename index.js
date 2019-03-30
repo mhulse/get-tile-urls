@@ -1,4 +1,4 @@
-const gtu = require('tile-url');
+const tileUrl = require('tile-url');
 
 function getTileUrls(data) {
 
@@ -22,7 +22,7 @@ function getTileUrls(data) {
 
       for (let x = 0; x < data.cols; x++) {
 
-        result.push(... gtu({
+        result.push(... tileUrl({
           id: data.id,
           key: data.key,
           x: x,
@@ -51,7 +51,7 @@ module.exports = (... data) => {
       ... data.map(getTileUrls)
     );
 
-    if (count == 1) {
+    if (count === 1) {
 
       // Replace the entire content of an `const` array:
       results.splice(0, results.length, ... results.flat());

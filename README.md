@@ -11,7 +11,7 @@ $ npm i mhulse/tile-urls
 ## Usage
 
 ```js
-const gtus = require('tile-urls');
+const tileUrls = require('tile-urls');
 const data = {
   id: "CAoSLEFGMVFpcFBUUGE3aHhlb1NWMEUxRFNwWFA5bW56VzZtYVc5VUV2NDJ2Yjc1",
   key: "AF1QipPTPa7hxeoSV0E1DSpXP9mnzW6maW9UEv42vb75",
@@ -19,7 +19,7 @@ const data = {
   rows: 3,
   cols: 5
 };
-console.log(gtus(data));
+console.log(tileUrls(data));
 // [
 //   'https://lh3.ggpht.com/p/AF1QipPTPa7hxeoSV0E1DSpXP9mnzW6maW9UEv42vb75=x0-y0-z3',
 //   'https://lh3.ggpht.com/p/AF1QipPTPa7hxeoSV0E1DSpXP9mnzW6maW9UEv42vb75=x1-y0-z3',
